@@ -1,0 +1,56 @@
+/* @media screen and (min-width:700px) {
+    :root {
+        font-size: 44px;
+    }
+} */
+
+@media screen and (max-device-width:99px) {
+    :root {
+        font-size: 44px;
+    }
+}
+
+
+:root {
+    padding-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    width: 100%;
+    background-image: url('./assets/img/sovremennyj-dom-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 5px;
+
+    transition: 0.5s;
+}
+
+.link:hover {
+    background-color: rgb(189, 183, 107, 0.4);
+}
+
+.room-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}

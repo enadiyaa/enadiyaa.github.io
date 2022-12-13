@@ -1,0 +1,112 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.note {
+    width: 40vw;
+    position: absolute;
+    animation: note-move 5s infinite;
+}
+
+
+@keyframes note-move {
+    25% {transform: translateY(5%);}
+    50% {transform: translateY(0%);}
+    75% {transform: translateY(5%);}
+}
+
+#note-1 {
+    top: 10vw;
+}
+
+#note-2 {
+    top: 30vw;
+    right: 5vw;
+}
+#note-3 {
+    top: 50vw;
+}
+#note-4 {
+    top: 70vw;
+    right: 5vw;
+}
+#note-5 {
+    top: 90vw;
+}
+#note-6 {
+    top: 110vw;
+    right: 5vw;
+}
+
+
+
+.typewriter h1 {
+    display: block;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-size: 30px;
+
+    @media screen and (max-device-width:1000px) {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+}
+
+.typewriter-wrapper {
+    display: flex;
+    margin-left: 5vw;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: white
+    }
+}

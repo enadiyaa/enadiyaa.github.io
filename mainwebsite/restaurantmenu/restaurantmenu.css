@@ -1,0 +1,21 @@
+body {
+   
+    background-color: burlywood;
+    height: 100%;
+    margin: 0%;
+}
+h1{
+    font-family: cursive;
+    font-display: red;
+    color: crimson;
+    font-size:xx-large:larger;
+    font: optional;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color:crimson;
+    font-size:xx-large;
+    list-style: 2 circle;
+
+}

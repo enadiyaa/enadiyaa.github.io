@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.img-click-block {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/paper-1.jpg");
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
