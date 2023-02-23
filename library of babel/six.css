@@ -1,0 +1,78 @@
+body {background-color: black; color: white; font-family: "Yapari";}
+@font-face {
+    font-family:"Yapari";
+    src: url("./Yapari-Variable-Trial-VF.ttf") format("truetype");}
+
+.hexagon_six {font-size:7px; font-weight: 700}
+
+.text_one {
+    position: fixed;
+    left: 40px;
+}
+.text_two {
+    position: fixed;
+    transform:rotateZ(60deg);
+    left: 80px;
+    top:30px;
+    
+}
+.text_three {
+    position: fixed;
+    transform:rotateZ(120deg);
+    left: 80px;
+    top: 75px;
+}
+.text_four {
+    position: fixed;
+    transform:rotateZ(180deg);
+    left: 40px;
+    top: 95px;
+}
+.text_five {
+    position: fixed;
+    transform:rotateZ(240deg);
+    top: 75px;
+    left:-0.2px;
+    
+}
+.text_six {
+    position: fixed;
+    transform:rotateZ(300deg);
+    top: 30px;
+    left:-0.2px;
+    
+}
+.main_text { text-align: right;
+    text-align: justify;
+    padding: 0 15%;
+    font-size: 12px;
+    line-height: 25px;
+    position: relative;
+    top: 50px;
+    
+}
+
+.return {
+    position: absolute;
+    font-size: 13px;
+    bottom: -30px;
+    left: 30px;
+    
+}
+.return a {
+    text-decoration: none;
+    color: white;}
+.forward {
+    position: absolute;
+    font-size: 13px;
+     bottom: 15px;
+     right: 30px;
+    bottom: -30px;
+   }
+.forward a {
+    text-decoration: none;
+    color: white;
+}
+
+
+

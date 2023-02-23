@@ -1,0 +1,70 @@
+body {background-color: black; color: white; font-family: "Yapari";}
+@font-face {
+    font-family:"Yapari";
+    src: url("./Yapari-Variable-Trial-VF.ttf") format("truetype");}
+
+.one { 
+  opacity:0;
+    transition: 2s opacity;
+    font-size: 34px;
+    font-weight: 400;
+    top:90px;
+     }
+.one:hover{
+opacity: 1;    
+} 
+.two { 
+  opacity:0;
+    transition: 2s opacity;
+    font-size: 34px;
+    font-weight: 400;
+    top:90px;
+     }
+.two:hover{
+opacity: 1;    
+} 
+.three { 
+  opacity:0;
+    transition: 2s opacity;
+    font-size: 34px;
+    font-weight: 400;
+    top:90px;
+     }
+.three:hover{
+opacity: 1;    
+} 
+.four { 
+  opacity:0;
+    transition: 2s opacity;
+    font-size: 34px;
+    font-weight: 400;
+    top:90px;
+     }
+.four:hover{
+opacity: 1;    
+} 
+
+.forward {
+    position: absolute;
+    font-size: 13px;
+     bottom: 15px;
+     right: 15px;
+   
+}
+.forward a {
+    text-decoration: none;
+    color: white;
+}
+.return {
+    position: absolute;
+    font-size: 13px;
+    bottom: 15px;
+}
+.return a {
+    text-decoration: none;
+    color: white;}
+
+
+
+
+

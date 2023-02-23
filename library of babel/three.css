@@ -1,0 +1,48 @@
+body {background-color: black; color: white; font-family: "Yapari";}
+@font-face {
+    font-family:"Yapari";
+    src: url("./Yapari-Variable-Trial-VF.ttf") format("truetype");}
+
+.forward {
+    position: absolute;
+    font-size: 13px;
+     bottom: 15px;
+     right: 15px;
+   
+}
+.forward a {
+    text-decoration: none;
+    color: white;
+}
+.return {
+    position: absolute;
+    font-size: 13px;
+    bottom: 15px;
+}
+.return a {
+    text-decoration: none;
+    color: white;}
+
+.maintext {
+    font-size: 14px;
+    font-weight: 550;
+    transition: font-size 1s;
+       
+}
+
+.maintext:hover 
+{
+    font-size: 21px;
+}
+
+.maintext2 {
+    font-size: 14px;
+    font-weight: 550;
+    transition: font-size 1s;
+       
+}
+
+.maintext2:hover 
+{
+    font-size: 21px;
+}
