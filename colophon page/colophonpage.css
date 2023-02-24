@@ -1,0 +1,17 @@
+body {background-color: black; color: white;text-decoration: none;}
+@font-face {
+    font-family:"Yapari";
+    src: url("./Yapari-Variable-Trial-VF. copyttf") format("truetype") ;
+    
+}
+body {font-family:"Yapari";}
+.name {
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+author. {
+    font-size: 75;
+    font-weight: 350;
+    
+}
