@@ -1,0 +1,9 @@
+.title {
+    color: red;
+    text-align: center;
+}
+.bullets {
+    display: flex;
+  text-align: center;
+  flex-direction: column;  
+}
