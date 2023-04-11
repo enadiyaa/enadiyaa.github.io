@@ -1,6 +1,6 @@
 let isPlaying = false;
 let audio = new Audio(); // Создаём новый элемент Audio
-audio.src = './memos/ondreams.m4a'; // Указываем путь к звуку "клика"
+audio.src = './memos/onolya.m4a'; // Указываем путь к звуку "клика"
 
 
 function soundHandler(event) {

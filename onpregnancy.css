@@ -85,7 +85,7 @@ body {
 }
 
 .onparents2 {
-    color:orange;
+    color: #F33FAB;
 }
 
 .img {
@@ -127,12 +127,12 @@ body {
     line-height: 120%;
     padding-top: 3%;
     font-weight: 330;
-    top: 1090px;
+    top: 1050px;
 }
 .clickhere1 {
     position: absolute;
     text-align: center;
-    color: orange;
+    color:#F33FAB;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -141,7 +141,7 @@ body {
     line-height: 120%;
     padding-top: 3%;
     font-weight: 330;
-    top: 1200px;
+    top: 1080px;
 }
 .onmothertext {
     position: absolute;
