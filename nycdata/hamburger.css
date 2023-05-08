@@ -1,0 +1,159 @@
+@font-face {
+    font-family:"Owners";
+    src: url("./fonts/owners-font/OwnersTRIALWide-XBlack-BF64361ef567cf7.otf");
+    font-family:"Owners2";
+    src: url("./fonts/owners-font/OwnersTRIAL-LightItalic-BF64361ef820339.otf");
+  }
+  @font-face {
+    font-family:"Owners3";
+    src: url("./fonts/owners-font/OwnersTRIAL-MediumItalic-BF64361ef8678d8.otf");
+  }
+  @font-face {
+    font-family:"Owners4";
+    src: url("./fonts/owners-font/OwnersTRIAL-Regular-BF64361ef86ac54.otf");
+  }
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #FAC60F;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+/* элементы меню */
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:"Owners3";
+}
+.menu__item1 {
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:"Owners";
+}
+.menu__item2 {
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:"Owners2";
+}
+.menu__item3 {
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:"Owners4";
+}
+
+.menu__item:hover {
+    background-color: red;
+    text-decoration: underline;
+}
+.menu__item1:hover {
+    background-color: plum;
+    text-decoration: underline;
+}
+.menu__item2:hover {
+    background-color: green;
+    text-decoration: underline;
+}
+.menu__item3:hover {
+    background-color: palevioletred;
+    text-decoration: underline;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    transition-duration: .25s;
+}
+
+.menu__box {
+    transition-duration: .25s;
+}
+
+.menu__item {
+    transition-duration: .25s;
+}

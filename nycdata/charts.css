@@ -1,0 +1,28 @@
+@font-face {
+    font-family:"Owners";
+    src: url("./fonts/owners-font/OwnersTRIALWide-XBlack-BF64361ef567cf7.otf");
+  }
+  @font-face {
+    font-family:"OwnersWide";
+    src: url("./fonts/owners-font/OwnersTRIALWide-Light-BF64361ef5869d4.otf");
+  }
+  
+  body {
+    background-color:green;
+    margin: 0;
+}
+
+.wrapper {
+    width: 200vw;
+    overflow-x: scroll;
+}
+/* .page {
+    width: 100vw;
+    float:left;
+    height: 100vh;
+} */
+.next {
+    right: 150px;
+    position: absolute;
+    top: 600px;
+}
