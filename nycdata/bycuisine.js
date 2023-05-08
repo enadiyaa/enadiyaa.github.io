@@ -28,8 +28,8 @@ window.onload = async function () {
                 borderWidth: 1,
                 backgroundColor: [
                     'green',
-                    'yellow',
-                    'red'],
+                    '#FAC60F',
+                    'plum'],
             }]
         },
         options: {
@@ -37,17 +37,17 @@ window.onload = async function () {
             plugins: {
                 title: {
                     display: true,
-                    text: 'Custom Chart Title',
+                    text: 'Cuisine: American',
                     font: {
-                        size: 14,
-                        family: "'Courier New', Courier, monospace",
+                        size: 30,
+                        family: "'Owners1'",
                     }
                 },
                 legend: {
                     labels: {
                         font: {
                             size: 14,
-                            family: "'Courier New', Courier, monospace",
+                            family: "'Owners1'",
                         }
                     }
                 }
