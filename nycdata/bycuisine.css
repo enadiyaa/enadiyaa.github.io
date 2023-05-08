@@ -6,6 +6,10 @@
     font-family:"OwnersWide";
     src: url("./fonts/owners-font/OwnersTRIALWide-Light-BF64361ef5869d4.otf");
   }
+  @font-face {
+    font-family:"Owners1";
+    src: url("./fonts/owners-font/OwnersTRIALWide-XLightItalic-BF64361ef58b34c.otf");
+  }
   
   body {
     background-color:plum;
@@ -28,5 +32,6 @@
     top: 600px;
 }
 #pieChart {
-  margin: 0 500px;
+  margin-top: 500px;
+  margin: 0 400px;
 }
