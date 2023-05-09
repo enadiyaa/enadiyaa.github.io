@@ -53,6 +53,24 @@ window.onload = async function () {
         scrollcontainer3.appendChild(element)
 
 })
+const response4 = await fetch("./dirtykitchen.json");
+const data4 = await response3.json();
+const scrollcontainer4 = document.getElementById("scrollcontainer4")
+data3.forEach(item => {
+    const element = document.createElement("div")
+    element.className = "scrollcontaineritem"
+    // element.innerText=item.dba+item.boro+item.street+item.zipcode
+    element.append(item.dba)
+    element.append(document.createElement('br'))
+    // element.append(' ')
+    element.append(item.boro)
+    element.append(' ')
+    element.append(item.street)
+    element.append(document.createElement('br'))
+    element.append(item.zipcode)
+    scrollcontainer3.appendChild(element)
+
+})
 
 }
 
