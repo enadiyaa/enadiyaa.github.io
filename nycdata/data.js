@@ -35,7 +35,24 @@ window.onload = async function () {
         scrollcontainer2.appendChild(element)
 
     })
+    const response3 = await fetch("./micedata.json");
+    const data3 = await response3.json();
+    const scrollcontainer3 = document.getElementById("scrollcontainer3")
+    data3.forEach(item => {
+        const element = document.createElement("div")
+        element.className = "scrollcontaineritem"
+        // element.innerText=item.dba+item.boro+item.street+item.zipcode
+        element.append(item.dba)
+        element.append(document.createElement('br'))
+        // element.append(' ')
+        element.append(item.boro)
+        element.append(' ')
+        element.append(item.street)
+        element.append(document.createElement('br'))
+        element.append(item.zipcode)
+        scrollcontainer3.appendChild(element)
 
+})
 
 }
 
