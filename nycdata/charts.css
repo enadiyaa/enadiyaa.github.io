@@ -6,6 +6,15 @@
     font-family:"OwnersWide";
     src: url("./fonts/owners-font/OwnersTRIALWide-Light-BF64361ef5869d4.otf");
   }
+  @font-face {
+    font-family: "OwnersRegular";
+    src: url("./fonts/owners-font/OwnersTRIALWide-MediumItalic-BF64361ef4dbfad.otf");
+}
+@font-face {
+  font-family: "Owners";
+  src: url("./fonts/owners-font/OwnersTRIALWide-XBlack-BF64361ef567cf7.otf");
+}
+
   
   body {
     background-color:green;
@@ -13,7 +22,7 @@
 }
 
 .wrapper {
-    width: 200vw;
+    width: 100vw;
     overflow-x: scroll;
 }
 /* .page {
@@ -25,4 +34,27 @@
     right: 150px;
     position: absolute;
     top: 600px;
+}
+.stats {
+  font-family: "OwnersRegular";
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.5;
+  
+
+}
+.stats2 {
+  font-family: "Owners";
+  font-size: 50px;
+  color: white;
+  /* text-align: center; */
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-top: 250px;
 }
