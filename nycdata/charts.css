@@ -40,7 +40,7 @@
   font-size: 45px;
   color: white;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 230px;
   margin-left: 30px;
   margin-right: 30px;
   line-height: 1.5;
@@ -56,5 +56,21 @@
   display: flex;
   justify-content: center;
   text-decoration: underline;
-  margin-top: 250px;
+  margin-top: 50px;
+}
+.stats3 {
+  font-family: "OwnersWide";
+  font-size: 45px;
+  color: white;
+  display: flex;
+  text-align: center;
+text-decoration: none;
+/* margin-left: 40px; */
+justify-content: center;
+margin-top: 30px;
+line-height: normal;
+}
+.stats3:hover {
+  background-color: #FAC60F;
+  text-decoration: underline;
 }
