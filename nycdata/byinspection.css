@@ -17,7 +17,7 @@
 }
 
 .wrapper {
-    width: 300vw;
+    width: 400vw;
     overflow-x: scroll;
 }
 /* .page {
@@ -26,7 +26,7 @@
     height: 100vh;
 } */
 .next {
-  right: 150px;
+  right: 300px;
   position: absolute;
   top: 750px;
 }
