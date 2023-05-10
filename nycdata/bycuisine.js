@@ -38,6 +38,7 @@ window.onload = async function () {
                 title: {
                     display: true,
                     text: 'Cuisine: American',
+                    color:"white",
                     font: {
                         size: 30,
                         family: "'Owners1'",
@@ -45,6 +46,7 @@ window.onload = async function () {
                 },
                 legend: {
                     labels: {
+                        color:"white",
                         font: {
                             size: 14,
                             family: "'Owners1'",
@@ -54,7 +56,8 @@ window.onload = async function () {
             },
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    display:false
                 }
             }
         }
