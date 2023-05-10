@@ -31,7 +31,14 @@
     position: absolute;
     top: 600px;
 }
-#pieChart {
-  margin-top: 500px;
-  margin: 0 400px;
+.piechart {
+  /* margin-top: 500px;
+  margin: 0 400px; */
+  width: 500px !important;
+  height: 500px !important;
+}
+.piecartsall {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
 }
