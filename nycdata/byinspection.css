@@ -64,7 +64,7 @@
 }
 .scrollcontainer {
   border-left: 10px solid white;
-  width: 400px;
+  width: 600px;
   height: 600px;
   overflow-y: scroll;
   display: flex;
@@ -78,10 +78,11 @@
   border-radius: 36px;
   color: black;
   font-family:"OwnersWide";
-  font-size: 18px;
+  font-size: 23px;
   padding-left: 30px;
-  padding-top: 5px;
-
+  padding-top: 15px;
+  margin-left: 15px;
+padding-bottom: 15px;
 }
 .page {
     width: 100vw;
@@ -89,7 +90,11 @@
     height: 130vh;
     position: relative;
 }
-
+.explanation {
+  position: absolute;
+  right: 50px; 
+  top: 250px;
+}
 
 @font-face {
   font-family:"Owners";
