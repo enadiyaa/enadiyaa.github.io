@@ -4,20 +4,22 @@ window.onload = async function () {
         {
             filename: "./americanfood.json",
             canvasId: "pieChart",
-            name: "american food"
+            name: "American"
         },
         {
             filename: "./mecianfood.json",
             canvasId: "pieChart1",
-            name: "mexican food"
+            name: "Mexican"
         },
         {
             filename: "./chinesefood.json",
-            canvasId: "pieChart2"
+            canvasId: "pieChart2",
+            name: "Chinese"
         },
         {
             filename: "./italianfood.json",
-            canvasId: "pieChart3"
+            canvasId: "pieChart3",
+            name: "Italian"
         }
     ];
     
@@ -63,7 +65,7 @@ window.onload = async function () {
                         text: element.name,
                         color:"white",
                         font: {
-                            size: 30,
+                            size: 55,
                             family: "'Owners1'",
                         }
                     },
@@ -71,7 +73,7 @@ window.onload = async function () {
                         labels: {
                             color:"white",
                             font: {
-                                size: 14,
+                                size: 35,
                                 family: "'Owners1'",
                             }
                         }
